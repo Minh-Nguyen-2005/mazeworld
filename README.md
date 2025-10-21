@@ -35,14 +35,23 @@ The codebase is modular and problem-agnostic: A* only needs a problem with:
 ## Files
 
 .
+
 ├── `Maze.py`                  # Maze loader/renderer & collision queries
+
 ├── `MazeworldProblem.py`      # Multi-robot modeling + heuristic + animation
+
 ├── `SensorlessProblem.py`     # Sensorless (belief) modeling + heuristic + animation
+
 ├── `astar_search.py`          # Generic A* (with parent/backchain) 
+
 ├── `SearchSolution.py`        # Printable result object (path, cost, nodes visited)
+
 ├── `test_mazeworld.py`        # Example runs for multi-robot
+
 ├── `test_sensorless.py`       # Example runs for sensorless
+
 ├── `*.maz`                    # Map files (ASCII)
+
 └── `README.md`
 
 ## How to run
